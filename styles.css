@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.navbar-container{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    border-bottom: solid rgb(229, 237, 255) 0.1rem ;
+    background-image: linear-gradient(#becefd,#fff);
+  
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+.bec-logo > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+.college-name > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0029be;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(245, 247, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-box{
+    width: 100%;
+    height: 70vh;
+    max-width: 800px;
+    min-width: 350px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(137, 137, 137, 0.284);
+    transition: 1s;
+    
+    
+}
+.form-box h1{
+    font-size: 2rem;
+    color: black;
+    
+}
+
+.form-box .underline{
+    width: 30px;
+    height: 4px;
+    display: none;
+    background: rgb(87, 104, 255);
+    margin: 10px auto 50px auto;
+    border-radius: 5px;
+}
+form .input-group{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.input-field > input{
+    background: #ffffff;
+    
+    outline: 0;  
+}
+.input-field > input:hover{
+    border-color: #265cff; 
+}
+form .input-group .input-field{
+    width: calc(100%/3-20px);
+    margin: 25px
+    
+
+   
+}
+.form-control{
+    border: none;
+}
+
+form .input-group .input-field input{
+    height:  30px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+}
+.form-box .input-group {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn-field button{
+    flex-basis: 48%;
+    max-width:  200px;
+    height: 40px;
+    margin-top: 13px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.btn-field button {
+    background-color: rgb(185, 184, 184); /* Set default background color to grey */
+    color: white;
+}
+/* Active class for buttons */
+.btn-field button.active {
+    background-color: blue; /* Set blue background when active */
+    color: white;
+}
+.btn-field button:hover{
+    background: rgb(157, 169, 198);
+}
+
+.input-group{
+    height: 350px;
+}
+.input-btn input{
+    background: rgb(162, 229, 255);
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.input-btn input:hover{
+    background: #dde8f3;
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page a {
+    margin-top: 20px;
+    font-weight: 50;
+    font-size: 15px;
+    text-decoration: none;
+    color: #078bff;
+}
+
+.login-page a:hover{
+    color: #87a0bf;
+}
+/*js end*/
+
+
+/*container2 start*/
+/* General Container and Column Setup */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row; /* Ensures divs are aligned in rows */
+}
+
+/* Main Heading Style */
+.main-heading {
+    width: 100%;
+    background: #0766fff2;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Section Headings Style */
+.section-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center; /* Centered Section Headings */
+    color: #ffffff; /* Blue color for the section headings */
+}
+
+/* Column Div Setup */
+.container2 > div {
+    flex: 1;
+    margin: 10px;
+    padding: 1px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.para p {
+    color: white;
+}
+
+/* Specific Column Width */
+.about, .useful-links, .location, .social-links {
+    flex-basis: 22%;
+    min-width: 220px;
+}
+
+/* Image Style */
+.bec-image {
+    text-align: center; /* Center the image */
+}
+
+.bec-image img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 8px; /* Optional: rounding the image corners */
+}
+
+/* Useful Links Styling */
+.useful-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.useful-links ul li {
+    margin-bottom: 10px;
+}
+
+.useful-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.useful-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social Links Styling */
+.social-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links ul li {
+    margin: 0 5px;
+}
+
+.social-links ul li a {
+    font-size: 24px;
+    color: #fffefe;
+}
+
+.social-links ul li a:hover {
+    color: #007bff;
+}
+
+/* Location Styling */
+.location p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.container2 div:hover {
+    background: transparent;
+    box-sizing: border-box;
+    
+    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.284);
+    
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    background-color: rgb(0, 0, 0);
+    color: #87a0bf;
+    
+}
+
+.footer > p{
+    color: rgb(255, 252, 252);
+}
+
+
+/*students dashboard page*/
+.account-container {
+    position: absolute; /* Ensure the container is positioned above the content */
+    top: 0rem; /* Adjust this value as per the icon position */
+    right: 0rem; /* Keep it aligned to the right */
+    width: 290px;
+    height: 45vh;
+    box-shadow: 0 0 5px rgb(189, 188, 188);
+    background-color: white; /* Ensure it's visible over content */
+    z-index: 1000; /* Ensure the container is on top of other elements */
+    display: none; /* Initially hidden */
+}
+
+.account-icon {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    float: right;
+    margin-right: 1.6rem;
+    margin-top: -3.5rem;
+    border-radius: 50%;
+    background-color: rgba(237, 249, 255, 0.786);
+    color: #110e0e;
+    box-shadow: 0 0 2px rgb(189, 188, 188);
+    cursor: pointer;
+    position: relative; /* To make sure container is relative to icon */
+}
+
+.account-icon:hover {
+    background-color: #00ace019;
+}
+
+.hamburger-btn {
+    float: right;
+    margin-right: 0.8rem;
+    margin-top: 0.3rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hamburger-btn:hover {
+    color: #a8b7c8;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    font-size: 20px;
+    border: solid 1px black;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile{
+    flex-direction: column;
+    gap: 20px;
+}
+.profile > h7{
+    font-size: 15px;
+}
+.content-list{
+    padding: 1.4rem;
+    
+}
+
+
+
+
+
+/* Ensure ul has no bullets and margin/padding */
+.content-list > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Ensure individual list items don't have bullet points */
+.content-list > ul li {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+/* Style the anchor tags inside the list items */
+.content-list > ul li a {
+    text-decoration: none;
+    color: #00179b;
+    transition: color 0.3s ease; /* Add transition for smoother hover */
+}
+
+/* Hover effect */
+.content-list > ul li a:hover {
+    color: rgb(255, 135, 83); /* Changes the color on hover */
+}
+
+
+/* Responsive Design */
+@media (max-width: 750px) {
+    
+    .nav-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    /* Container: Adjust height for mobile view */
+    .container {
+        height: auto; /* Let the height adjust based on content */
+        padding: 20px; /* Add padding */
+    }
+
+    /* Form Box: Adjust width and height */
+    .form-box {
+        height: auto; /* Let form box height adjust based on content */
+        min-width: 100%; /* Full width for mobile */
+        padding: 15px;
+        max-width: 100%; /* Ensure it doesn't exceed screen width */
+    }
+
+    /* Input Group: Stack the fields vertically */
+    form .input-group .input-field {
+        width: 100%; /* Full width for all input fields */
+        margin: 10px 0; /* Less margin between fields */
+    }
+
+    /* Input Group: Reduce height for mobile */
+    .input-group {
+        height: auto; /* Let the height adjust naturally */
+    }
+
+    /* Button Field: Stack buttons vertically */
+    .btn-field {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Add some space between buttons */
+    }
+
+    .btn-field button {
+        width: 100%; /* Full width for buttons */
+        max-width: none; /* Remove the max-width restriction */
+        height: 50px; /* Slightly taller buttons */
+    }
+
+    /* Login Form: Center login form for mobile */
+   
+    .footer > p{
+        font-size: 11px;
+    }
+    .main-heading ,
+    .section-heading{
+        font-size: 12px;
+    }
+    .para p{
+        font-size: 12px;
+    }
+    @media (max-width: 400px) {
+        .bec-logo > img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 8vh;
+           
+        }
+        .college-name > p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #0029be;
+            font-size: 11px;
+        }
+        .nav-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 60px;
+        }
+       
+       
+    }
+    @media (max-width: 400px){
+
+        .college-name > p {
+            
+            font-size: 8px;
+        }
+        .account-icon{
+            font-size: 12px;
+        }
+       
+        
+    }
+}
